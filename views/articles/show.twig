@@ -1,0 +1,11 @@
+<a href="/articles">Home</a>
+<h3>
+    {{ article.title }}
+</h3>
+<img src="{{ article.picture }}" alt="{{ article.title }}"/>
+<p>
+    {{ article.description }}
+</p>
+<p>
+    <small>{{ article.createdAt.format('Y-m-d H:i:s') }}</small>
+</p>
